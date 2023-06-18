@@ -304,7 +304,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/NIHAN-404/TS/blob/main/Approval.txt").text
+    DARK=requests.get("https://github.com/NIHAN-404/New/commit/556ab90da6fad8411e191a7d854d7304df6b7c14").text
     if id in DARK:
         Main()
     else:
